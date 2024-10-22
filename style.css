@@ -4,24 +4,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background: linear-gradient(135deg, #000202e4, #0d9f4fa4); /* Background color */
+    color: #fff;
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: rgba(300, 250, 250, 0.1); /* Background color for container */
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     width: 90%;
-    max-width: 400px;
+    max-width:400px;
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #ffffff; /* Header color */
 }
 
 /* Add more styles here as needed */
+#generatBtn {
+    color: rgb(0, 0, 0);
+    background-color: #0494b9e4;
+}
